@@ -1,0 +1,1 @@
+# manipuladorbot_ws
