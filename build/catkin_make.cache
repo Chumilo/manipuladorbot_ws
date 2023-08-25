@@ -1,0 +1,2 @@
+manipuladorbot_test
+-DCATKIN_DEVEL_PREFIX=/home/juan_c/manipuladorbot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/juan_c/manipuladorbot_ws/install -G Unix Makefiles

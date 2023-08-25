@@ -1,0 +1,8 @@
+prefix=/home/juan_c/manipuladorbot_ws/devel
+
+Name: manipuladorbot_test
+Description: Description of manipuladorbot_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
