@@ -13,9 +13,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/order_packages.cmake"
+  "manipulador_description/catkin_generated/package.cmake"
   "manipuladorbot_test/catkin_generated/ordered_paths.cmake"
   "manipuladorbot_test/catkin_generated/package.cmake"
   "/home/juan_c/manipuladorbot_ws/src/CMakeLists.txt"
+  "/home/juan_c/manipuladorbot_ws/src/manipulador_description/CMakeLists.txt"
+  "/home/juan_c/manipuladorbot_ws/src/manipulador_description/package.xml"
   "/home/juan_c/manipuladorbot_ws/src/manipuladorbot_test/CMakeLists.txt"
   "/home/juan_c/manipuladorbot_ws/src/manipuladorbot_test/package.xml"
   "/opt/ros/melodic/share/catkin/cmake/../package.xml"
@@ -93,6 +96,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/melodic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake"
   "/opt/ros/melodic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake"
   "/opt/ros/melodic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake"
+  "/opt/ros/melodic/share/roslaunch/cmake/roslaunch-extras.cmake"
+  "/opt/ros/melodic/share/roslaunch/cmake/roslaunchConfig-version.cmake"
+  "/opt/ros/melodic/share/roslaunch/cmake/roslaunchConfig.cmake"
   "/opt/ros/melodic/share/rospy/cmake/rospyConfig-version.cmake"
   "/opt/ros/melodic/share/rospy/cmake/rospyConfig.cmake"
   "/opt/ros/melodic/share/rostime/cmake/rostimeConfig-version.cmake"
@@ -175,6 +181,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "manipuladorbot_test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "manipulador_description/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -203,4 +210,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "manipuladorbot_test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "manipuladorbot_test/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake"
   "manipuladorbot_test/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
+  "manipulador_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   )

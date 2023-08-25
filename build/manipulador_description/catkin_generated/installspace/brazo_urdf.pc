@@ -1,0 +1,8 @@
+prefix=/home/juan_c/manipuladorbot_ws/install
+
+Name: brazo_urdf
+Description: Description of brazo_urdf
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

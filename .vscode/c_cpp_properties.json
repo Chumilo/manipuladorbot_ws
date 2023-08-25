@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/melodic/include/**",
+        "/home/juan_c/catkin_ws/src/basic/include/**",
+        "/home/juan_c/my_workspace/src/drone_bot/include/**",
+        "/home/juan_c/drone_workspace/src/drone_description/include/**",
+        "/home/juan_c/my_workspace/src/jani_bot/include/**",
+        "/home/juan_c/manipuladorbot_ws/src/manipuladorbot_test/include/**",
+        "/home/juan_c/my_workspace/src/mecanum_bot/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
