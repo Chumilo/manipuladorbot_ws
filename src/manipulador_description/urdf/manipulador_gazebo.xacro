@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro"
+    name="brazo_urdf">
+
+<xacro:macro name="default_transmission" params="number">
+    <transmmission name="transmission_${number}">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="joint_${number}">
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuador name="motor_${number}"> 
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuador>
+
+    </transmmission>
+
+</xacro:macro> 
+
+</robot>
