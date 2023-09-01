@@ -1,15 +1,22 @@
 joint_1_controller:
-  type: position_controllers/JointPositionController
+  type: effort_controllers/JointPositionController
   joint: joint_1
-
+  pid: {p: 500.0, i: 30000.0, d: 800.0}
+  
 joint_2_controller:
-  type: position_controllers/JointPositionController
+  type: effort_controllers/JointPositionController
   joint: joint_2
+  pid: {p: 450.0, i: 1800.0, d: 700.0}
+  
 
 joint_3_controller:
-  type: position_controllers/JointPositionController
+  type: effort_controllers/JointPositionController
   joint: joint_3
+  pid: {p: 150.0, i: 10000.0, d: 800.0}
+  
 
 joint_4_controller:
-  type: position_controllers/JointPositionController
+  type: effort_controllers/JointPositionController
   joint: joint_4
+  pid: {p: 50.0, i: 10.0, d: 2.0}
+  
