@@ -17,10 +17,10 @@ def nodo_manipulador():
     msg_3 = Float64()
     msg_4 = Float64()
     
-    msg_1.data = 3.0    #rango 0-  3.14
-    msg_2.data = 1.5    #rango -1.57 - 1.57
-    msg_3.data = 1.0    #rango 0 - 3.14
-    msg_4.data = 1.0    #rango -3.14 - 3.14
+    msg_1.data = 3.14    #rango 0-  3.14
+    msg_2.data = 0.0    #rango -1.57 - 1.57
+    msg_3.data = 0.0    #rango 0 - 3.14
+    msg_4.data = 0.0    #rango -3.14 - 3.14
     
     rate = rospy.Rate(10)  #crea un objeto rate a 10hz
     

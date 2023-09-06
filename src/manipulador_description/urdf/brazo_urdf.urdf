@@ -285,18 +285,27 @@
       velocity="3" />
   </joint>
 
-<!--   <xacro:default_transmission number="1"/>
-  <xacro:default_transmission number="2"/>
-  <xacro:default_transmission number="3"/>
-  <xacro:default_transmission number="4"/>
+  <gazebo reference="base_link">
+    <material>Gazebo/Orange</material>
+  </gazebo>
 
-  <gazebo>
-    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-      <robotNamespace>/manipuladorbot</robotNamespace>
-      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
-      <legacyMode>true</legacyMode>
-    </plugin>
-  </gazebo> -->
+  <gazebo reference="link_1">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="link_2">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="link_3">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="link_4">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+
   <transmission name="trans_1">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="joint_1">
@@ -342,11 +351,7 @@
   </transmission>
 
   <gazebo>
-    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-     <!--  <robotNamespace>/robot/base_footprint</robotNamespace>
-      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
-      <legacyModeNS>true</legacyModeNS> -->
-    </plugin>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so"></plugin>
   </gazebo> 
 
 </robot>
